@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "644e76f56f3703dda9576bce"
+  },
+  "name": "Nguyễn Huy Bình",
+  "email": "khach@gmail.com",
+  "password": "$2a$10$rV7l/sLiCGlAHmdLycSP2uLjCUrTk87j5GPY4mNhM0OqMffAZKawG",
+  "phone": "01242882856",
+  "role": 0,
+  "__v": 0
+}]

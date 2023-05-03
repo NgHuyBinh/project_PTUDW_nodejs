@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "644dba0bb843441e856df7b0"
+  },
+  "name": "Áo sơ mi nam",
+  "active": true,
+  "__v": 0
+},
+
+{
+  "_id": {
+    "$oid": "644dba0fb843441e856df7b2"
+  },
+  "name": "Áo sơ mi nữ",
+  "active": true,
+  "__v": 0
+},
+
+{
+  "_id": {
+    "$oid": "644dba12b843441e856df7b4"
+  },
+  "name": "Áo thun",
+  "active": true,
+  "__v": 0
+},
+
+{
+  "_id": {
+    "$oid": "644dba21b843441e856df7b6"
+  },
+  "name": "Áo khoác",
+  "active": true,
+  "__v": 0
+},
+
+{
+  "_id": {
+    "$oid": "644dba29b843441e856df7b8"
+  },
+  "name": "Áo thể thao",
+  "active": true,
+  "__v": 0
+}]

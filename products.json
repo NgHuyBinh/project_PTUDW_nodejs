@@ -1,0 +1,127 @@
+[{
+
+  "name": "Áo sơ mi nam cổ trụ, dài tay",
+  "price": 107000,
+  "desc": "Sơ mi cổ trụ nam là một kiểu áo phông đặc trưng của nam giới, được thiết kế với cổ áo trụ cao và đứng thẳng. Kiểu áo này thường được làm từ chất liệu thoáng mát như cotton hoặc linen, phù hợp cho các hoạt động ngoài trời và mùa hè nóng bức. Sơ mi cổ trụ nam mang đến cho người mặc sự thanh lịch, lịch sự và không kém phần hấp dẫn. Với nhiều kiểu dáng và màu sắc đa dạng, sơ mi cổ trụ nam có thể phối hợp với nhiều trang phục khác nhau, từ quần jean đến quần tây, tạo nên nhiều phong cách thời trang khác nhau.",
+  "img": [
+    "https://toplist.vn/images/800px/xuong-lef-296750.jpg",
+    "https://salt.tikicdn.com/cache/w300/ts/product/5b/22/d9/01c8d33ca7d0e4288c1064cf6ef68212.jpg"
+  ],
+  "active": true,
+  "id_category": {
+    "$oid": "644dba0bb843441e856df7b0"
+  }
+
+},
+
+{
+
+  "name": "Áo sơ mi nam vải lụa chống nhăn",
+  "price": 165000,
+  "desc": "Áo sơ mi nam vải lụa chống nhăn là sự kết hợp hoàn hảo giữa sự sang trọng của vải lụa và tính tiện dụng của công nghệ chống nhăn. Chất liệu vải lụa tạo cảm giác mềm mại, nhẹ nhàng và thoải mái khi mặc. Điều đặc biệt của loại áo sơ mi này là khả năng chống nhăn, giúp người mặc luôn giữ được vẻ đẹp và gọn gàng của áo ngay cả khi đã sử dụng trong thời gian dài. Với những gam màu trang nhã và đa dạng, áo sơ mi nam vải lụa chống nhăn dễ dàng phối hợp với nhiều loại quần khác nhau, tạo nên phong cách lịch lãm và tinh tế cho người mặc.",
+  "img": [
+    "https://img10.360buyimg.com/n1/s350x449_jfs/t1/195299/3/865/94386/608da3d8Ea152af5e/bf62ccbad319bb32.jpg!cc_350x449.jpg",
+    "https://s3.ap-northeast-2.amazonaws.com/storage.b-flow.io/11739466/conversions/resize.jpg"
+  ],
+  "active": true,
+  "id_category": {
+    "$oid": "644dba0bb843441e856df7b0"
+  }
+
+},
+
+{
+
+  "name": "Áo sơ mi nam họa tiết",
+  "price": 108000,
+  "desc": "Áo sơ mi nam họa tiết là một loại áo phông với nhiều họa tiết, hoa văn và màu sắc đa dạng. Những mẫu áo này thường được làm từ chất liệu cotton hoặc linen, giúp cho người mặc cảm thấy thoải mái và dễ chịu trong suốt cả ngày dài. Áo sơ mi nam họa tiết thường mang đến cho người mặc sự năng động và trẻ trung, phù hợp với nhiều hoàn cảnh khác nhau như dạo phố, đi chơi hay tham gia các buổi tiệc. Với sự đa dạng trong thiết kế và kiểu dáng, người mặc có thể tự do lựa chọn áo sơ mi họa tiết phù hợp với sở thích và phong cách của mình.",
+  "img": [
+    "https://thoitrangngaynay.com/upload/images/ao-so-mi-nam%20(33).jpg",
+    "https://img.zanado.com/media/catalog/product/cache/all/thumbnail/700x817/7b8fef0172c2eb72dd8fd366c999954c/1/_/ao_so_mi_nam_ngan_tay_hoa_tiet_la_tix_6d05.jpg"
+  ],
+  "active": false,
+  "id_category": {
+    "$oid": "644dba0bb843441e856df7b0"
+  }
+
+},
+
+{
+
+  "name": "Áo sơ mi nữ",
+  "price": 108000,
+  "desc": "Áo sơ mi nữ công sở là một trong những item không thể thiếu trong tủ đồ của phụ nữ trong môi trường làm việc chuyên nghiệp. Với chất liệu cotton hoặc vải lụa, áo sơ mi nữ công sở mang đến cảm giác mềm mại và thoải mái cho người mặc trong suốt cả ngày dài. Thiết kế đơn giản với cổ áo trụ và tay dài, áo sơ mi nữ công sở thể hiện sự lịch sự, chuyên nghiệp và tinh tế. Áo sơ mi nữ có thể dễ dàng kết hợp với nhiều loại quần như quần tây, quần legging hay chân váy, tạo nên phong cách trẻ trung và sang trọng, phù hợp với nhiều hoàn cảnh trong công việc và cuộc sống hàng ngày của phụ nữ.",
+  "img": [
+    "https://www.vfestival.vn/wp-content/uploads/2019/11/mau-ao-so-mi-cong-so-nu-dep-nhat-4-400x600.jpg",
+    "https://adayne.vn/wp-content/uploads/2021/04/ao-so-mi-nu-cong-so-kieu-dang-han-quoc-dat-khach-nhat-tren-thi-truong-155651-1.jpg"
+  ],
+  "active": false,
+  "id_category": {
+    "$oid": "644dba0fb843441e856df7b2"
+  }
+
+},
+
+{
+
+  "name": "Áo sơ mi nữ thời trang",
+  "price": 178000,
+  "desc": "Áo sơ mi nữ là một trong những trang phục thời trang cổ điển nhưng vẫn luôn được ưa chuộng trong thế giới thời trang hiện đại. Kiểu áo này có đặc điểm là cổ áo và nắp tay được thiết kế đặc trưng, giúp mang lại vẻ đẹp lịch sự và thanh lịch cho người mặc. Áo sơ mi nữ có thể được làm từ nhiều chất liệu khác nhau như cotton, linen, silk... và được thiết kế với nhiều kiểu dáng, họa tiết, màu sắc đa dạng, phù hợp với nhiều phong cách và hoàn cảnh khác nhau. Từ công sở đến cuộc hẹn hò, từ dạo phố đến tiệc tùng, áo sơ mi nữ luôn là lựa chọn thông minh và thời trang cho các quý cô.",
+  "img": [
+    "https://toplist.vn/images/800px/thoi-trang-tich-tac-148632.jpg",
+    "https://ae01.alicdn.com/kf/HTB1IRiBNVXXXXbxXFXXq6xXFXXXf/2016-New-Hot-Fashion-Casual-Women-Blouses-New-Navy-Women-Lapel-Shirt-Vintage-Polka-Dot-Chiffon.jpg_640x640.jpg"
+  ],
+  "active": true,
+  "id_category": {
+    "$oid": "644dba0fb843441e856df7b2"
+  }
+
+},
+
+{
+
+  "name": "Áo khoác thời trang",
+  "price": 278000,
+  "desc": "Áo khoác thời trang là một phụ kiện thời trang quan trọng trong tủ quần áo của mỗi người, đặc biệt trong những tháng mùa lạnh. Các nhà thiết kế thời trang đã cho ra đời nhiều kiểu dáng và mẫu mã áo khoác đa dạng, từ áo khoác bomber, áo khoác dù, áo khoác len đến áo khoác da, v.v. Các loại áo khoác này thường được làm từ chất liệu chất lượng cao như da, len, dù, vải thô, hoặc các loại chất liệu chống thấm. Áo khoác thời trang không chỉ giúp cho người mặc giữ ấm mà còn làm tăng vẻ ngoài bắt mắt, tạo nên phong cách và cá tính riêng cho từng người. Với sự kết hợp phù hợp với các trang phục khác nhau, áo khoác thời trang sẽ giúp cho bạn luôn trông phong độ và tự tin trong mắt người đối diện.",
+  "img": [
+    "https://hidanz.com/wp-content/uploads/2021/04/ao-so-mi-khoac-ngoai-nam-3-1.jpg",
+    "https://armystore.vn/upload/store/2019-07-17/ao-khoac-nam-khong-tham-nuoc-phong-cach-quan-doi-arm-845.jpg"
+  ],
+  "active": true,
+  "id_category": {
+    "$oid": "644dba21b843441e856df7b6"
+  }
+
+},
+
+{
+
+  "name": "Áo khoác jean",
+  "price": 308000,
+  "desc": "Áo khoác jean là một loại áo khoác truyền thống được làm từ chất liệu denim. Được thiết kế với nhiều kiểu dáng khác nhau, áo khoác jean mang đến cho người mặc phong cách năng động và cá tính. Với độ bền cao và khả năng chống thời tiết tốt, áo khoác jean thường được sử dụng cho các hoạt động ngoài trời như đi bộ, đi du lịch hay đi xe máy. Áo khoác jean phù hợp với nhiều phong cách thời trang khác nhau, có thể được phối với nhiều loại trang phục khác nhau như áo phông, quần jean, quần kaki, tạo nên một phong cách thời trang cá tính và độc đáo.",
+  "img": [
+    "https://aodoitina.com/upload/images/ao-khoac-jean-nam-phoi-ni-co-non-mau-xanh-nhat.jpg",
+    "https://hidanz.com/wp-content/uploads/2021/04/phoi-do-voi-ao-khoac-jean-nam-2.jpg"
+  ],
+  "active": false,
+  "id_category": {
+    "$oid": "644dba21b843441e856df7b6"
+  }
+
+},
+
+{
+
+  "name": "Áo thể thao nam",
+  "price": 178000,
+  "desc": "Áo thể thao nam là một trong những kiểu áo được thiết kế đặc biệt để phục vụ cho các hoạt động thể thao và tập luyện. Chất liệu thường được sử dụng là polyester hoặc nylon, với đặc tính thoáng khí và thoát mồ hôi tốt, giúp cho người mặc cảm thấy thoải mái và khô ráo trong suốt quá trình vận động. Thiết kế của áo thể thao nam thường rất đa dạng, từ các kiểu áo polo, áo tay ngắn hay áo hoodie, đều được cải tiến với nhiều tính năng như túi đựng điện thoại, đường may chắc chắn, khóa kéo tiện lợi, áo có mũ che nắng, chống gió,... Đặc biệt, áo thể thao nam còn có nhiều màu sắc và họa tiết đa dạng, giúp người mặc có thể tự do lựa chọn phù hợp với sở thích và phong cách của mình.",
+  "img": [
+    "https://images-na.ssl-images-amazon.com/images/I/71OZUUnCnGL._AC_UL1335_.jpg",
+    "https://i.pinimg.com/originals/f2/71/82/f27182da7357fcfa7320a08c986435ba.jpg"
+  ],
+  "active": true,
+  "id_category": {
+    "$oid": "644dba29b843441e856df7b8"
+  }
+
+}]
