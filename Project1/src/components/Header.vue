@@ -24,7 +24,9 @@
               </routerLink>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">Giỏ hàng</a>
+              <routerLink to="/cart">
+                <a class="nav-link" >Giỏ hàng</a>
+              </routerLink>
             </li>
             <li class="nav-item">
               <routerLink to="/products">
@@ -32,14 +34,14 @@
               </routerLink>
               
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link" href="contact.html">Liên hệ</a>
-            </li>
+            </li> -->
             <li v-if="isChecked" class="nav-item">
               <a class="nav-link" @click="logout">Thoát</a>
             </li>
             <li v-else class="nav-item">
-              <routerLink to="/login">
+              <routerLink to="/login"> 
                 <a class="nav-link" >Đăng nhập</a>
               </routerLink>
              

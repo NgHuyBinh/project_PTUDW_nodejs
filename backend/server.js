@@ -11,10 +11,9 @@ app.use(cookie());
 app.use(
   cors({
     credentials: true, //trao đổi với cooki
-    origin: ["http://localhost:3002"],
+    origin: ["http://localhost:3001"],
   })
 );
-
 const subscribersRouter = require("./routes/subscribers.js");
 const usersRouter = require("./routes/users.js");
 const contactsRouter = require("./routes/contacts.js");

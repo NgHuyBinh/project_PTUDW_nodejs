@@ -26,6 +26,13 @@ const routes = [
       
   },
   {
+    path: "/about",
+    name: "About",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../pages/About.vue"),
+      
+  },
+  {
     path: "/home",
     redirect: "/",
   },
@@ -35,6 +42,12 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../pages/Detail.vue"),
       
+  },
+  {
+    path: "/cart",
+    name: "Cart",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../pages/Cart.vue"),
   },
 ];
 

@@ -98,11 +98,11 @@
                 <h5>{{ item.name }}</h5>
                 <p>{{ item.price.toLocaleString('vi', {style : 'currency', currency : 'VND'}) }}</p>
                 <div>
-                  <routerLink :to="/detail/item._id">
+                  <routerLink :to="{name: 'detail',params: {id: item._id}}">
                     <button class="btn btn-info">Detail</button>
                   </routerLink>
                     
-                    <button @click="addToCart" class="btn btn-success">Add to cart</button>
+                    <button @click="addToCart(item)" class="btn btn-success">Add to cart</button>
                 </div>
             </div>
 
@@ -301,7 +301,7 @@ header .header-1 .menu ul li:hover > a{
 import axios from "axios";
 import Footer from "../components/Footer.vue";
 import Header from "../components/Header.vue";
-import { reactive } from "vue";
+import { reactive, ref } from "vue";
 export default {
   components: {
     Footer,
@@ -310,7 +310,9 @@ export default {
   setup() {
     const data = reactive({
       products: [],
+      cart: []
     })
+    const isChecked = ref(false);
     async function getAllProductsActive(){
       try {
         const response = await axios.get('http://localhost:3000/products?active=true');//lấy api từ địa chỉ bên node đi về với req.body.active = true
@@ -319,11 +321,54 @@ export default {
 
       }
     }
-    function addToCart() {
-      if(localStorage.getItem("token")==null){
-        alert("Vui lòng đăng nhập để đặt hàng");
-        return ;
+    function addToCart(product) {
+      product.soluong = 1;
+      //Chưa đăng nhập không cho add to cart
+      if (localStorage.getItem("token") == null) {
+        alert("Vui lòng đăng nhập trước khi thêm vào giỏ");
+        return;
       }
+
+      //Kiểm tra : Sự tồn tại của localStorage
+      if (localStorage.getItem("cart") == null) {
+        //Nếu localStorage chưa tồn tại
+        //thêm product vào data.cart
+        for (var i = 0; i < data.cart.length; i++) {
+          if (product._id == data.cart[i]._id) {
+            isChecked.value = true;
+            break;
+          }
+          isChecked.value = false;
+        }
+        if (isChecked.value == true) {
+          //Nếu product đã có trong cart thì không cho thêm vào ( xuất hiện thông báo)
+          alert("Bạn đã thêm sản phẩm này vào giỏ hàng rồi");
+        } else {
+          //Nếu product chưa có trong cart thì cho thêm vào
+          data.cart.push(product);
+        }
+      } else {
+        //Nếu localStorage tồn tại rồi
+        //Lấy dữ liệu từ localStorage hiện tại gán cho data.cart
+        data.cart = JSON.parse(localStorage.getItem("cart"));
+        //thêm product vào data.cart
+        for (var i = 0; i < data.cart.length; i++) {
+          if (product._id == data.cart[i]._id) {
+            isChecked.value = true;
+            break;
+          }
+          isChecked.value = false;
+        }
+        if (isChecked.value == true) {
+          //Nếu product đã có trong cart thì không cho thêm vào ( xuất hiện thông báo)
+          alert("Bạn đã thêm sản phẩm này vào giỏ hàng rồi");
+        } else {
+          //Nếu product chưa có trong cart thì cho thêm vào
+          data.cart.push(product);
+        }
+      }
+      localStorage.setItem("cart", JSON.stringify(data.cart));
+      console.log(JSON.parse(localStorage.getItem("cart")));
     }
     getAllProductsActive();
     return {  
