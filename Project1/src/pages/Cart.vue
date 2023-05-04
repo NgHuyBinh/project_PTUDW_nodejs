@@ -7,7 +7,6 @@
         Tiếp tục mua hàng
       </button></router-link
     >
-
     <table class="table text-center">
       <thead style="height: 30px; background-color: #d28484; color: aliceblue">
         <th>STT</th>
@@ -18,11 +17,12 @@
         <th>Thao tác</th>
       </thead>
       <tbody>
-        <tr v-for="(item, index) in data.cart" :key="index">
+        <tr v-for="(item, index) in data.cart" :key="index"> 
           <td>{{ index + 1 }}</td>
           <td>{{ item.name }}</td>
           <td><img :src="item.img[0]" style="width: 30%" /></td>
           <td>
+            
             {{
               item.price.toLocaleString("vi", {
                 style: "currency",
